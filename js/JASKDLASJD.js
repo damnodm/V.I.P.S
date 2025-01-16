@@ -21,7 +21,7 @@ if (nome=="vai tomar no cu" ||nome=="Vai tomar no cu" || nome=="vai se fude" || 
 
 }
 
-if (nome=="Maria" || nome=="Daniel" || nome=="Pedro" || nome=="Celso"  ){
+if (nome=="Maria" || nome=="Daniel" || nome=="Pedro" || nome=="Celso" || nome=="Sara"  ){
 
 //window.location.href = "paginas/player.html"
 document.getElementById('nome').innerHTML = "Bem vindo:" + nome;
