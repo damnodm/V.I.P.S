@@ -33,7 +33,7 @@ document.getElementById('nome').innerHTML = "Você foi convidado a esse rpg, cas
 
 }else{
 
-    document.getElementById('nome').innerHTML = "não registrado (dica: "qual é seu nome?""
+    document.getElementById('nome').innerHTML = "não registrado (dica: qual é seu nome?)"
  
 }
 
