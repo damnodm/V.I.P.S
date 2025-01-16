@@ -1,0 +1,71 @@
+body{
+
+    overflow-x: hidden;
+    background-image: url(../imgs/sim.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    
+    #sha{
+    
+    transition: 2s;
+    
+    
+    }
+    
+    a{
+
+      color:rgb(0, 167, 167);
+cursor: pointer;
+
+    }
+    
+    
+    @keyframes brilhar {
+      0% {
+        transform: scale(1);
+        filter: shadow(0 0 5px purple) brightness(100%);
+      }
+      100% {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 20px purple) brightness(200%);
+      }
+    }
+    
+    @keyframes pula-pula {
+          0% {
+            transform: translate(0, 0);
+          }
+          25% {
+            transform: translate(50px, -30px);
+          }
+          50% {
+            transform: translate(-40px, 50px);
+          }
+          75% {
+            transform: translate(30px, 70px);
+          }
+          100% {
+            transform: translate(0, 0);
+          }
+        }
+    
+    
+    
+    
+    .brilho {
+    
+        transition: 2s;
+                animation: brilhar 2s infinite;
+            }
+    
+            .anfitras{
+    
+                transition: 2s;
+            
+    
+                animation:pula-pula 2s inifinite alternate;
+                font-family: Luminari, fantasy	;
+    
+            }
+    
